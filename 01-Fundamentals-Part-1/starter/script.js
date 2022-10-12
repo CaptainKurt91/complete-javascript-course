@@ -122,3 +122,16 @@ if (favNumber === 10){
   console.log((typeof favNumber), "And the input from the user is a string")
 }
  */
+
+// Coding challenge #3
+
+const dolphinAverage = (97 + 112 + 101)/3
+const koalasAverage = (109 + 95 + 123)/3
+
+if(dolphinAverage === koalasAverage ) {
+  console.log("It's a draw!")
+} else if(dolphinAverage > koalasAverage && dolphinAverage >= 100) {
+  console.log("Dolphins wins")
+} else if(koalasAverage > dolphinAverage && koalasAverage >= 100){
+  console.log("Kolas wins")
+}
