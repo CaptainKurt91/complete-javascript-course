@@ -125,7 +125,7 @@ if (favNumber === 10){
 
 // Coding challenge #3
 
-const dolphinAverage = (97 + 112 + 101)/3
+/* const dolphinAverage = (97 + 112 + 101)/3
 const koalasAverage = (109 + 95 + 123)/3
 
 if(dolphinAverage === koalasAverage ) {
@@ -134,4 +134,17 @@ if(dolphinAverage === koalasAverage ) {
   console.log("Dolphins wins")
 } else if(koalasAverage > dolphinAverage && koalasAverage >= 100){
   console.log("Kolas wins")
+}
+ */
+
+const day = 'monday'
+
+switch (day) {
+  case 'monday':
+    console.log(monday)
+    
+    break;
+
+  default:
+    break;
 }
