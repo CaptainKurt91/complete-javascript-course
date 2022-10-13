@@ -137,14 +137,24 @@ if(dolphinAverage === koalasAverage ) {
 }
  */
 
-const day = 'monday'
+/* const day = 'monday'
 
 switch (day) {
   case 'monday':
     console.log(monday)
-    
+
     break;
 
   default:
     break;
-}
+} */
+
+
+const numbers = [1, 2, 3]
+let sum = 0
+numbers.forEach((number) => {
+  let squared = number ** 2;
+  console.log(squared);
+  sum += squared;
+  console.log(sum);
+});
