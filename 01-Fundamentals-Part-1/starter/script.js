@@ -137,20 +137,45 @@ if(dolphinAverage === koalasAverage ) {
 }
  */
 
-/* const day = 'monday'
+// Switch case logic
+// The 'break' moves the code to the next condition
+const day = 'wednesday'
 
 switch (day) {
   case 'monday':
-    console.log(monday)
-
+    console.log('monday')
+  break;
+  case 'tuesday':
+    console.log('tuesday')
     break;
-
+  case 'wednesday':
+  case 'thursday':
+    console.log('wednesday and thursday')
+    break;
+  case 'friday':
+    console.log('friday')
+    break;
+  case 'saturday':
+  case 'sunday':
+    console.log('Enjoy The weekend ')
+    break;
   default:
-    break;
-} */
+    console.log('Not a week day')
+  break;
+}
+
+if(day === 'monday'){
+  console.log('monday')
+}else if(day === 'tuesday'){
+  console.log('tuesday')
+}else if(day === 'wednesday' || 'thursday'){
+  console.log('wednesday and thursday')
+}
 
 
-const numbers = [1, 2, 3]
+// challenge from codewars
+
+/* const numbers = [1, 2, 3]
 let sum = 0
 numbers.forEach((number) => {
   let squared = number ** 2;
@@ -158,3 +183,25 @@ numbers.forEach((number) => {
   sum += squared;
   console.log(sum);
 });
+ */
+
+// Code Challenge: Make number negavtive
+// My Solution:
+
+/* function makeNegative(num) {
+  if(num > 0){
+  return -num;
+  } else if(num < 0) {
+  return num;
+  } else if(num === 0){
+  return 0;
+  }
+}
+ */
+
+// My Soultion refactored
+
+/* function makeNegative(num) {
+ return num < 0 ? num : -num;
+}
+ */
