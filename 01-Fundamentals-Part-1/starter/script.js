@@ -139,7 +139,7 @@ if(dolphinAverage === koalasAverage ) {
 
 // Switch case logic
 // The 'break' moves the code to the next condition
-const day = 'wednesday'
+/* const day = 'wednesday'
 
 switch (day) {
   case 'monday':
@@ -162,15 +162,17 @@ switch (day) {
   default:
     console.log('Not a week day')
   break;
-}
+} */
 
-if(day === 'monday'){
+// Same as above but as an if-else statements
+
+/* if(day === 'monday'){
   console.log('monday')
 }else if(day === 'tuesday'){
   console.log('tuesday')
 }else if(day === 'wednesday' || 'thursday'){
   console.log('wednesday and thursday')
-}
+} */
 
 
 // challenge from codewars
@@ -205,3 +207,19 @@ numbers.forEach((number) => {
  return num < 0 ? num : -num;
 }
  */
+
+// Conditinal (Ternay) Operator
+
+/* const age = 10
+age >= 18 ? console.log('Drunk') : console.log('Sober');
+
+const drink = age >= 18 ? 'Drunk' : 'Sober';
+console.log(drink)
+
+console.log(`I am ${age >= 18 ? 'Drunk' : 'Sober'}`);
+ */
+
+// Coding Challenge #4
+/* const bill = 301
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.20
+console.log(`The bill was $${bill} the tip was $${tip}, and the total value is $${bill + tip}`) */
